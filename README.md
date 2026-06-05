@@ -1,2 +1,7 @@
 # C_Project01
 경제 물가 계산 프로그램
+
+### 기술 스택
+- GUI구성: GTK 라이브러리
+- 계산 알고리즘: C언어(VSstudio)
+- 시연: Windows 10-11
