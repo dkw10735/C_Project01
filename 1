@@ -1,0 +1,50 @@
+#include <stdio.h>
+
+
+
+int main() {
+
+    double monthly_income;
+
+
+
+    printf("월 평균 수입을 입력하세요 (단위: 원): ");
+
+    if (scanf("%lf", &monthly_income) != 1) {
+
+        printf("올바른 숫자를 입력해주세요.\n");
+
+        return 1;
+
+    }
+
+
+
+    double living_expenses = monthly_income * 0.50;
+
+    double savings = monthly_income * 0.30;
+
+    double leisure = monthly_income * 0.20;
+
+
+
+    printf("\n--- 권장 예산 배분안 ---\n");
+
+    printf("1. 필수 생활비 (50%%): %.0f 원\n", living_expenses);
+
+    printf("2. 저축 및 투자 (30%%): %.0f 원\n", savings);
+
+    printf("3. 여가 및 자기계발 (20%%): %.0f 원\n", leisure);
+
+
+    printf("\n종료하려면 엔터 키를 누르세요...");
+
+    getchar(); 
+
+    getchar();
+
+
+
+    return 0;
+
+}
