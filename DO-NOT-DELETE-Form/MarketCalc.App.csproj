@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>WindowsFormsApp1</RootNamespace>
+    <AssemblyName>MarketCalc.App</AssemblyName>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <!-- Designer 코드가 명시적 컨트롤 등록 방식이라 자동 SDK import 그대로 사용 -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- .NET 6에서 System.Windows.Forms.DataVisualization.Charting(Chart) 제공 -->
+    <PackageReference Include="WinForms.DataVisualization" Version="1.9.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MarketCalc\MarketCalc.Core\MarketCalc.Core.csproj" />
+  </ItemGroup>
+
+</Project>

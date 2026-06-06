@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G1wMmBcoCYUnVZo+x6iBL4lhmF/AeM7tm12U45SHtWsWVioe/lsgeH0VvpwvIbnI6svQmCEONn2cPPveVVblTA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dkw07\\source\\repos\\Claude\\DO-NOT-DELETE-Form\\MarketCalc.App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dkw07\\.nuget\\packages\\winforms.datavisualization\\1.9.1\\winforms.datavisualization.1.9.1.nupkg.sha512"
+  ],
+  "logs": []
+}
